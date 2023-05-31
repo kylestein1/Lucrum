@@ -1,0 +1,4 @@
+Fix structure:
+// assets-images
+// components - screens (screens = folder -> all componenents for home), backend, common (something use across multiple screens)
+// functions file -- all one and put it at top of src
