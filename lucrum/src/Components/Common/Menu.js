@@ -26,7 +26,7 @@ const Menu = () => {
             //   // isSidebarOpen ? <AiOutlineCloseCircle  style={{background:"white"}}/> : <HiOutlineMenu />
 
             //  } */}
-                {isSidebarOpen ? <AiOutlineCloseCircle style={styles.menuIcon} /> : <HiOutlineMenu style={styles.menuIcon} />}
+                {isSidebarOpen ? <AiOutlineCloseCircle style={styles.menuIconClose} /> : <HiOutlineMenu style={styles.menuIcon} />}
             </button>
 
             <div
@@ -80,8 +80,20 @@ const styles = {
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
+        // borderWidth:"1px",
+        // borderColor: "#0F4C81",
     },
     menuIcon: {
+        height: '20px',
+        width: '20px',
+        color: "white",
+        // color: "#0F4C81",
+        // display: "flex",
+        // alignItems: "center",
+        // align-items: center,
+        // justifyContent: "center",
+    },
+    menuIconClose: {
         height: '20px',
         width: '20px',
         color: "white",
